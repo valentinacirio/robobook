@@ -1,0 +1,367 @@
+/*Istruzioni generali sito*/
+
+body {
+background-color: #FFFFFF;
+  font-family: verdana, sanserif; 
+} 
+
+#headerhomepage{
+border: 3px solid #000000;
+  background: #0B94BA; 
+margin-bottom: 15px;
+text-align: center;
+}
+
+
+
+.header { 
+  background-color: #0B94BA;
+border: 3px solid #000000;
+padding:15px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+
+.footer {
+  background-color: #0B94BA ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  color: #90d5a7; 
+border: 3px solid #000000;
+}
+
+.footerscritte {
+padding-bottom: 10px;
+text-align: center;
+}
+
+#home {
+display: inline;
+margin-bottom: 10px;
+}
+
+.home {
+font-size: 2em;
+position: absolute;
+right: 25px;
+padding: 15px  32px;
+background-color: #0B94BA;
+border: 1px solid white;
+margin-top: 2px;
+cursor: pointer;
+color: white;
+font-weight: bold;
+text-decoration:none;
+}
+
+
+.titlepage  {
+font-size: 6em;
+font-weight:bold;
+text-align: center;
+color: white;
+display: block;
+}
+
+
+/*HOMEPAGE*/
+
+#titlehomepage {
+  font-size: 40px;
+ color: white; 
+margin-bottom: 15px;
+display: block;
+font-weight: bold;
+text-align: center;
+}
+
+
+#right {
+float: right;
+padding: 19px
+}
+
+#ulhomepage {
+width: 97%;
+  padding: 20px;
+  background-color: #3090C7;
+  float: left;
+border: 3px solid #000000;
+
+
+}
+
+.lihomepage {
+  padding: 15px ;
+margin-right: 7px;
+  font-size: 30px;
+  border: 2px solid #32CD32;
+display: table-cell;
+color: white;
+position: relative;
+left: 180px;
+}
+
+.linknav {
+color: white;
+
+}
+
+.spanhomepage {
+ font-size: 35px;
+ color: #C04678;
+font-weight: bold;
+}
+
+#sectionhomepage {
+ margin-left: 10px;
+ margin-right: 10px;
+ font-family: sans-serif;
+ font-size: 12px;
+}
+
+.lab {
+padding-bottom: 9px;
+font-weight: bold;
+font-size: 25px;
+}
+
+p {
+font-size:25px;
+text-align: justify;
+}
+
+
+
+/*CHI SIAMO*/
+
+
+
+
+
+#section2{
+margin-bottom: 15em;
+}
+
+
+#img1{
+float:right;
+padding: 19px;
+
+}
+
+
+#titolo1 {
+font-size: 2em;
+font-weight: bold;
+position: relative;
+top: 50px;
+}
+
+#p1{
+font-size: 35px;
+text-align: justify;
+display: inline;
+position: relative;
+top: 80px;
+}
+
+#titolo2{ 
+font-size: 2em;
+font-weight: bold;
+position: relative;
+top: 20px;
+left: 850px;
+
+}
+
+#img2{
+float: left;
+margin-right: 5px;
+padding: 19px;
+}
+
+#p2{
+font-size: 35px;
+text-align: justify;
+display: inline;
+position: relative;
+top: 80px;
+}
+
+
+
+
+
+/*CONTATTI*/
+
+
+
+
+#info{
+font-size:3em;
+font-weight:bold;
+}
+
+#indirizzo{
+font-weight: bold;
+}
+
+table {
+table-layout: fixed;
+width: 600px;
+height: 500px;
+border: 1px solid #000000;
+border-spacing: 5px;
+margin-right: 10px;
+float:right;
+
+}
+
+td {
+border: 1px solid #cccccc;
+padding-top:7px;
+padding-bottom: 7px;
+padding-left: 7px;
+padding-right: 10px;
+text-align:center;
+}
+
+
+/*GALLERY*/
+
+
+
+
+#articlegallery {
+margin-top: 30px;
+margin-bottom: 50px;
+}
+
+.container {
+display: flex;
+background-color: #90d5a7;
+
+}
+
+.container > div {
+width: 100%;
+}
+
+.gallery {
+width: 100%;
+padding:1%;
+}
+
+.image img {
+width: 18%;
+min-height:125px;
+margin: 1%;
+float: left;
+}
+
+
+
+/*PRENOTAZIONI*/
+
+
+}
+
+
+
+/*GUIDA*/
+
+#video {
+margin-top: 5px;
+}
+
+#guida {
+text-align: center;
+}
+
+
+/*FAQ*/
+
+
+
+h2{
+font-size: 75px;
+}
+
+.domande {
+font-size: 30px;
+font-weight: bold;
+list-style-image: url(immagini/puntointerrogativo.svg);
+list-style-position:outside;
+padding: 15px;
+border: 2px solid #000000;
+margin-bottom: 30px ;
+background-color: #0B94BA;
+color:  white;
+}
+
+
+.risposte {
+font-size: 25px;
+list-style-image: url(immagini/freccia4.svg);
+margin-bottom: 25px;
+position: relative;
+left: 25px;
+
+}
+
+
+/*CONFERMA PRENOTAZIONE*/
+
+
+.avviso {
+font-size: 25px;
+text-align: center;
+}
+
+.grazie {
+font-size: 20px;
+text-align: center;
+}
+
+.robobook {
+border: 1px solid white;
+padding: 15px 32px;
+text-align: center;
+font-size: 25px;;
+font-weight: bold;
+color: white;
+background-color: #0B94BA;
+cursor: pointer;
+margin-bottom: 10px;
+text-decoration: none;
+}
+
+.iconesocial {
+text-align:center;
+}
+
+#confermaprenotazione {
+text-align:center;
+}
+
+
+
+/*PRIVACY*/
+
+#titleprivacy {
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+display: block;
+}
+
+
+
+
+
+
+	  

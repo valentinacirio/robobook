@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    
+ <head>
+   <link rel="icon" type="immagini/logo-icon" href="immagini/logo4.ico"/>
+   <meta charset="UTF-8" />
+   <title> Robobook - Prenotazioni </title>
+   <meta name="keywords" content="Laboratorio informatica, Robtica, Prenotazioni, Prenota il tuo posto, Dipartimento Informatica, Università" />
+   <meta name="description" content="Pagina prenotazioni laboratorio robotica"/>
+  <meta name="author" content="Cirio Valentina e D'Andrea Felice"/>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+ </head>
+
+<body>
+ 
+<header class="header">
+
+
+<a href="Robobook%20-%20Homepage.html">
+ <img src="immagini/logo4.ico" width="360" height="300" alt="Logo Robobook" title="Logo Robobook" id="iniziopagina"/>
+</a>
+
+<span class="titlepage">Prenotazioni</span>
+
+</header>
+
+
+
+<div id="home">
+
+<a  class="home" href="Robobook%20-%20Homepage.html">Home</a>
+
+</div>
+<br/><br/><br/>
+
+<article>       
+  <span class="spanhomepage">Prenota i tuoi laboratori</span>
+
+
+<br><br> 
+  <form action="Robobook%20-%20Conferma%20Prenotazione.html" method="post" enctype="text/plain">
+
+<label for="nome">Nome:</label>
+<br>
+<input type="text" id="nome" name="nome" value="Inserisci il tuo nome" size="60" maxlength="50">
+<br><br>
+
+<label for="cognome">Cognome:</label>
+<br/> 
+<input type="text" id="cognome" name="cognome" value="Inserisci il tuo cognome" size="60" maxlength="50"/>
+<br><br>
+
+<label for="numero%20matricola">Numero matricola:</label>
+<br> 
+<input type="text" id="numero%20matricola" name="numero matricola" value="Inserisci il tuo numero di matricola" size="60"/>
+<br><br>
+
+<label for="email">Email:</label>
+<br> 
+<input type="email" id="email" name="email" value="Inserisci email" size="60" maxlength="50"/>   
+<br><br>
+
+<label for="laboratorio">Laboratorio:</label>
+<br/>
+ <select id="laboratorio" name="laboratorio">
+    <option value="Introduzione alle tecniche di programmazione industriale">Introduzione alle tecniche di programmazione industriale</option>
+    <option value="Modern robotics livello base">Modern Robotics livello base</option>
+    <option value="Modern robotics livello intermedio">Modern Robotics livello intermedio</option>
+   <option value="Modern robotics livello avanzato">Modern Robotics livello avanzato</option>
+   <option value="Robotica aeriale">Robotica aeriale</option>
+   <option value="Design di sensori e circuiti di sensori">Design di sensori e circuiti di sensori</option>
+   <option value="Safety robotics">Safety Robotics</option>
+  </select>
+<br/><br/>
+
+<label for="orario">Orario:</label>
+<br/>
+ <select id="orario" name="orario">
+    <option value="12am-14pm">12am-14pm</option>
+    <option value="14pm-16pm">14pm-16pm</option>
+    <option value="16pm-18pm">16pm-18pm</option>
+ </select>
+<br/><br/>
+
+<label for="data">Data:</label>
+<br/>
+<input type="date" id="data" name="data_laboratorio"  min="2023-01-01" max="2023-12-31"/>
+<br/><br/>
+
+
+
+
+<input type="submit" value="Invia"/>
+
+
+
+<input type="reset" value="Reset"/>
+
+</form>
+</article>
+ <br/><br/>
+
+
+
+
+
+
+ <br/><br/><br/><br/><br/> <br/><br/>
+
+
+
+
+
+<footer class="footer">
+<div class="footerscritte">
+
+ © Valentina Cirio
+<br/>
+ © Felice D'Andrea
+<br/>
+ © Robobook
+<br/>
+<a href="Robobook%20-%20Privacy%20Policy.html">Privacy Policy</a>
+<br/>
+<a href="#iniziopagina">Torna all'inizio della pagina</a>
+
+</div>
+</footer>
+
+</body>
+</html>
